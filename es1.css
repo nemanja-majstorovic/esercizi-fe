@@ -6,3 +6,26 @@
     display: none;
 }
  
+.my-row {
+    border: 3px solid orange;
+}
+
+.my-col {
+    border: 3px dotted blue;
+}
+
+@media (max-width:500px) {
+    .my-row {
+        border: 3px dotted blue;
+    }
+
+    .my-col {
+        border: 3px solid orange;
+    }
+}
+
+@media (orientation: landscape) and (max-width:500px) {
+    body {
+        background: silver;
+	}
+}
