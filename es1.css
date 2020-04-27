@@ -21,6 +21,11 @@ th, td {
     text-align:center;
 }
 
+body {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
 @media (max-width:500px) {
     .my-row {
     }
