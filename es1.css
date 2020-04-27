@@ -5,27 +5,31 @@
 #spoiler{
     display: none;
 }
+
  
 .my-row {
-    border: 3px solid orange;
 }
 
 .my-col {
-    border: 3px dotted blue;
+}
+
+p {
+    font-weight:bold;
+}
+
+th, td {
+    text-align:center;
 }
 
 @media (max-width:500px) {
     .my-row {
-        border: 3px dotted blue;
     }
 
     .my-col {
-        border: 3px solid orange;
     }
 }
 
 @media (orientation: landscape) and (max-width:500px) {
     body {
-        background: silver;
 	}
 }
